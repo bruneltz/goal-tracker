@@ -11,7 +11,7 @@ export function EmptyGoals() {
 			<img src={logo} alt="in.orbit" />
 			<img src={letsStart} alt="in.orbit" />
 			<p className="text-zinc-300 leading-relaxed max-w-80 text-center">
-				You didn't add any goal yet, why not adding now?
+				You didn't add any goal yet,<br></br> why not adding now?
 			</p>
 
 			<DialogTrigger asChild>
