@@ -13,11 +13,14 @@ To run locally, follow these commands:
 1. Clone this project
 
 Start the server:
-1. Access the the server directory
+1. Access the the `server` directory
 2. Run `docker compose start`
-3. Run `npm run dev`
-4. Run `npx drizzle-kit studio` to access the DB tables
+3. Run `npm install`
+4. Run `npm run dev`
+5. Run `npx drizzle-kit studio` to access the DB tables
 
 Start the web:
-1. Inside the web directory, run `npm run dev`
-2. Open http://localhost:5173/
+1. Access the the `web` directory
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open http://localhost:5173/
